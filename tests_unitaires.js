@@ -12,7 +12,7 @@ function ajouterEmploye(nom, poste) {
     console.log(`Nouvel employé ajouté : ${nom}, ${poste}`);
 }
 
-// Fonction supprimé employé a partir de l'ID, splice permlet supprimer un elements, emp nom de variable representant un objet employe,
+// Fonction supprimé employé a partir de l'ID, splice permet de supprimer un elements, emp nom de variable representant un objet employe,
 function supprimerEmploye(id) {
     let index = employes.findIndex(emp => emp.id === id);
     if (index !== -1) {
